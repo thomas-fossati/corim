@@ -45,6 +45,9 @@ const (
 	// The digest value may be used to find the certificate path if
 	// contained in a lookup table.
 	CertPathThumbprintType = "cert-path-thumbprint"
+	// CertAmdArkAskType represents the Certificate format used by AMD for either
+	// AMD Root Key (ARK) or AMD Signing Key (ASK)
+	CertAmdArkAskType = "cert-amd-ark-ask"
 )
 
 // CryptoKey is the struct implementing CoRIM crypto-key-type-choice. See
@@ -462,6 +465,59 @@ func (o TaggedPKIXBase64CertPath) certPath() ([]*x509.Certificate, error) {
 	}
 
 	return certs, nil
+}
+
+type TaggedCertAmdArkAsk struct {
+	Value     string  `cbor:"79499,keyasint" json:"askark"`
+}
+
+func NewCertAmdArkAsk(k any) (*CryptoKey, error) {
+	var val string
+
+	switch t := k.(type) {
+	case string:
+		val = t
+	default:
+		return nil, fmt.Errorf("value must be a string; found %T", k)
+	}
+
+	var key TaggedCertAmdArkAsk
+	key.Value = val
+	if err := key.Valid(); err != nil {
+		return nil, err
+	}
+
+	return &CryptoKey{key}, nil
+}
+
+func MustNewCertAmdArkAsk(k any) *CryptoKey {
+	key, err := NewCertAmdArkAsk(k)
+
+	if err != nil {
+		panic(err)
+	}
+
+	return key
+}
+
+func (o TaggedCertAmdArkAsk) String() string {
+	return string(o.Value)
+}
+
+// ToDo: Add checks to validate ARK/ASK
+func (o TaggedCertAmdArkAsk) Valid() error {
+	return nil
+}
+
+func (o TaggedCertAmdArkAsk) Type() string {
+	return CertAmdArkAskType
+}
+
+// ToDo: extract Public Key from ARK/ASK
+//       ARK/ASK is in proprietary format. We need to extract the
+//       Modulus and Exponent and then construct the Public Key
+func (o TaggedCertAmdArkAsk) PublicKey() (crypto.PublicKey, error) {
+	return nil, errors.New("cannot get PublicKey from a AMD certificate")
 }
 
 // TaggedCOSEKey is a CBOR encoded COSE_Key or COSE_KeySet. See
