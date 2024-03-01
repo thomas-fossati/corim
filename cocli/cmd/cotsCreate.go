@@ -11,7 +11,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
-	"github.com/veraison/corim/cots"
+	"github.com/jraman567/corim/cots"
 )
 
 var (

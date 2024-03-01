@@ -4,7 +4,7 @@
 
 To install the `cocli` command, do:
 ```
-$ go install github.com/veraison/corim/cocli@latest
+$ go install github.com/jraman567/corim/cocli@latest
 ```
 
 To configure auto-completion, use the `completion` subcommand.  For example, if
@@ -483,7 +483,7 @@ graph LR
 
     JSONTmplCoSWID[["JSON \n template \n (CoSWID)"]]
     style JSONTmplCoSWID fill:#71797E
-    click JSONTmplCoSWID "https://github.com/veraison/corim/issues/81"
+    click JSONTmplCoSWID "https://github.com/jraman567/corim/issues/81"
 
     JSONTmplCoRIM[["JSON \n template \n (CoRIM)"]]
     JSONTmplMeta[["JSON \n template \n (Meta)"]]

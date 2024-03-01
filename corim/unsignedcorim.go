@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/veraison/corim/cots"
+	"github.com/jraman567/corim/cots"
 
-	"github.com/veraison/corim/comid"
+	"github.com/jraman567/corim/comid"
 	"github.com/veraison/eat"
 	"github.com/veraison/swid"
 )

@@ -6,7 +6,7 @@ package cots
 import (
 	"testing"
 
-	"github.com/veraison/corim/comid"
+	"github.com/jraman567/corim/comid"
 	"github.com/veraison/swid"
 
 	"github.com/stretchr/testify/assert"

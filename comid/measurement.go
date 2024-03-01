@@ -22,7 +22,7 @@ type Measurement struct {
 
 // Mkey stores a $measured-element-type-choice.
 // The supported types are UUID, PSA refval-id, CCA platform-config-id and unsigned integer
-// TO DO Add tagged OID: see https://github.com/veraison/corim/issues/35
+// TO DO Add tagged OID: see https://github.com/jraman567/corim/issues/35
 type Mkey struct {
 	val interface{}
 }
@@ -257,7 +257,7 @@ func (o Mval) Valid() error {
 
 	// raw value and mask have no specific semantics
 
-	// TODO(tho) MAC addr & friends (see https://github.com/veraison/corim/issues/18)
+	// TODO(tho) MAC addr & friends (see https://github.com/jraman567/corim/issues/18)
 
 	return nil
 }

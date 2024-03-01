@@ -21,7 +21,7 @@ func comidTags() cbor.TagSet {
 		111: TaggedOID{},
 		// CoMID tags
 		550: TaggedUEID{},
-		//551: To Do see: https://github.com/veraison/corim/issues/32
+		//551: To Do see: https://github.com/jraman567/corim/issues/32
 		552: TaggedSVN(0),
 		553: TaggedMinSVN(0),
 		554: TaggedPKIXBase64Key(""),

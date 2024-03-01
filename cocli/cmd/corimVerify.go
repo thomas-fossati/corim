@@ -10,7 +10,7 @@ import (
 
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
-	"github.com/veraison/corim/corim"
+	"github.com/jraman567/corim/corim"
 )
 
 var (

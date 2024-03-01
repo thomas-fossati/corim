@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/veraison/corim/comid"
+	"github.com/jraman567/corim/comid"
 )
 
 func Test_ComidCreateCmd_unknown_argument(t *testing.T) {

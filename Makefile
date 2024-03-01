@@ -4,10 +4,10 @@ SHELL := /bin/bash
 
 GO111MODULE := on
 
-GOPKG := github.com/veraison/corim/corim
-GOPKG += github.com/veraison/corim/comid
-GOPKG += github.com/veraison/corim/cots
-GOPKG += github.com/veraison/corim/cocli/cmd
+GOPKG := github.com/jraman567/corim/corim
+GOPKG += github.com/jraman567/corim/comid
+GOPKG += github.com/jraman567/corim/cots
+GOPKG += github.com/jraman567/corim/cocli/cmd
 
 MOCKGEN := $(shell go env GOPATH)/bin/mockgen
 INTERFACES := cocli/cmd/isubmitter.go
