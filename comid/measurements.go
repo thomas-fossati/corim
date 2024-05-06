@@ -4,7 +4,6 @@
 package comid
 
 import (
-	"errors"
 	"fmt"
 )
 
@@ -25,14 +24,18 @@ func (o *Measurements) AddMeasurement(m *Measurement) *Measurements {
 }
 
 func (o Measurements) Valid() error {
-	if len(o) == 0 {
-		return errors.New("no measurement entries")
-	}
-
 	for i, m := range o {
 		if err := m.Valid(); err != nil {
 			return fmt.Errorf("measurement at index %d: %w", i, err)
 		}
 	}
 	return nil
+}
+
+func (o Measurements) Empty() bool {
+	if len(o) == 0 {
+		return true
+	}
+
+	return false
 }
