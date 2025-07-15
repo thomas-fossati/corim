@@ -1,4 +1,4 @@
-module github.com/veraison/corim
+module github.com/thomas-fossati/corim
 
 go 1.23.0
 
