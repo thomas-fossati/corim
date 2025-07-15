@@ -4,12 +4,12 @@ SHELL := /bin/bash
 
 GO111MODULE := on
 
-GOPKG := github.com/veraison/corim/corim
-GOPKG += github.com/veraison/corim/comid
-GOPKG += github.com/veraison/corim/cots
-GOPKG += github.com/veraison/corim/encoding
-GOPKG += github.com/veraison/corim/extensions
-GOPKG += github.com/veraison/corim/coserv
+GOPKG := github.com/thomas-fossati/corim/corim
+GOPKG += github.com/thomas-fossati/corim/comid
+GOPKG += github.com/thomas-fossati/corim/cots
+GOPKG += github.com/thomas-fossati/corim/encoding
+GOPKG += github.com/thomas-fossati/corim/extensions
+GOPKG += github.com/thomas-fossati/corim/coserv
 
 GOLINT ?= golangci-lint
 

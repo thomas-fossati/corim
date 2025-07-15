@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/extensions"
 	cose "github.com/veraison/go-cose"
 )
 

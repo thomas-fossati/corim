@@ -3,7 +3,7 @@
 package corim
 
 import (
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/extensions"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/veraison/corim/comid"
+	"github.com/thomas-fossati/corim/comid"
 )
 
 func TestEnvironmentSelector_Valid_mixed_fail(t *testing.T) {

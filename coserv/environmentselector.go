@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/fxamacker/cbor/v2"
-	"github.com/veraison/corim/comid"
+	"github.com/thomas-fossati/corim/comid"
 )
 
 func unmarshalStatefulFirstPass(data []byte) ([]cbor.RawMessage, error) {

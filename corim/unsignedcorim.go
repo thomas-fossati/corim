@@ -13,11 +13,11 @@ import (
 
 	cbor "github.com/fxamacker/cbor/v2"
 
-	"github.com/veraison/corim/cots"
-	"github.com/veraison/corim/encoding"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/cots"
+	"github.com/thomas-fossati/corim/encoding"
+	"github.com/thomas-fossati/corim/extensions"
 
-	"github.com/veraison/corim/comid"
+	"github.com/thomas-fossati/corim/comid"
 	"github.com/veraison/eat"
 	"github.com/veraison/swid"
 )

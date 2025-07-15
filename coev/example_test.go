@@ -9,7 +9,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/veraison/corim/comid"
+	"github.com/thomas-fossati/corim/comid"
 	"github.com/veraison/swid"
 )
 

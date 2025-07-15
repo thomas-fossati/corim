@@ -9,9 +9,9 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/veraison/corim/comid"
-	"github.com/veraison/corim/encoding"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/comid"
+	"github.com/thomas-fossati/corim/encoding"
+	"github.com/thomas-fossati/corim/extensions"
 )
 
 // EvidenceID stores evidence identities. The currently supported format is UUID.

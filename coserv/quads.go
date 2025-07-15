@@ -3,7 +3,7 @@
 
 package coserv
 
-import "github.com/veraison/corim/comid"
+import "github.com/thomas-fossati/corim/comid"
 
 type RefValQuad struct {
 	Authorities *[]comid.CryptoKey `cbor:"1,keyasint"`

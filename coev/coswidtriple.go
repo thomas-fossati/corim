@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/veraison/corim/comid"
+	"github.com/thomas-fossati/corim/comid"
 )
 
 // CoSWIDTriple stores a CoSWID Evidence

@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/veraison/corim/extensions"
-	"github.com/veraison/corim/testdata"
+	"github.com/thomas-fossati/corim/extensions"
+	"github.com/thomas-fossati/corim/testdata"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/veraison/corim/comid"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/comid"
+	"github.com/thomas-fossati/corim/extensions"
 )
 
 type signerExtensions struct {

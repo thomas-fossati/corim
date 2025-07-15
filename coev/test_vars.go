@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/veraison/corim/comid"
+	"github.com/thomas-fossati/corim/comid"
 )
 
 //nolint:lll

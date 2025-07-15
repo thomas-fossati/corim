@@ -3,7 +3,7 @@
 
 package coev
 
-import "github.com/veraison/corim/extensions"
+import "github.com/thomas-fossati/corim/extensions"
 
 const (
 	ExtConciseEvidence      extensions.Point = "ConciseEvidence"

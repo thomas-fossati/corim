@@ -6,8 +6,8 @@ set -e
 
 type go-licenses &> /dev/null || go get github.com/google/go-licenses
 
-MODULES+=("github.com/veraison/corim/corim")
-MODULES+=("github.com/veraison/corim/comid")
+MODULES+=("github.com/thomas-fossati/corim/corim")
+MODULES+=("github.com/thomas-fossati/corim/comid")
 
 for module in ${MODULES[@]}
 do

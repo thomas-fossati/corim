@@ -9,7 +9,7 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/extensions"
 )
 
 type TestExtensions struct {

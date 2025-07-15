@@ -5,7 +5,7 @@ package extensions
 import (
 	"encoding/json"
 
-	"github.com/veraison/corim/encoding"
+	"github.com/thomas-fossati/corim/encoding"
 )
 
 var StringType = "string"

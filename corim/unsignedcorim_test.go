@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/veraison/corim/comid"
-	"github.com/veraison/corim/cots"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/comid"
+	"github.com/thomas-fossati/corim/cots"
+	"github.com/thomas-fossati/corim/extensions"
 	"github.com/veraison/swid"
 )
 
