@@ -10,9 +10,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/veraison/corim/comid"
-	"github.com/veraison/corim/corim"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/comid"
+	"github.com/thomas-fossati/corim/corim"
+	"github.com/thomas-fossati/corim/extensions"
 	"github.com/veraison/eat"
 	"github.com/veraison/swid"
 )

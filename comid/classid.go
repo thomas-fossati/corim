@@ -12,8 +12,8 @@ import (
 	"strconv"
 
 	"fortio.org/safecast"
-	"github.com/veraison/corim/encoding"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/encoding"
+	"github.com/thomas-fossati/corim/extensions"
 )
 
 // ClassID identifies the environment via a well-known identifier. This can be

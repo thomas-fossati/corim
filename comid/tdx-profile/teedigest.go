@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/veraison/corim/comid"
-	"github.com/veraison/corim/encoding"
+	"github.com/thomas-fossati/corim/comid"
+	"github.com/thomas-fossati/corim/encoding"
 )
 
 type Digests = comid.Digests

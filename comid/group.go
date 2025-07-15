@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/veraison/corim/encoding"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/encoding"
+	"github.com/thomas-fossati/corim/extensions"
 )
 
 // Group stores a group identity. The supported formats are UUID and variable-length opaque bytes.

@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/fxamacker/cbor/v2"
-	"github.com/veraison/corim/encoding"
+	"github.com/thomas-fossati/corim/encoding"
 )
 
 // NumericType represents the abstraction of a numeric type, allowed values are int/uint/float

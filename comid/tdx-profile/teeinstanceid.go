@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/veraison/corim/encoding"
+	"github.com/thomas-fossati/corim/encoding"
 )
 
 // TeeInstanceID stores an TEE Instance Identifier. The supported formats are uint and variable-length bytes.

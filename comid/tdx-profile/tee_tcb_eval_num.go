@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/veraison/corim/encoding"
+	"github.com/thomas-fossati/corim/encoding"
 )
 
 // TeeTcbEvalNumber holds a TeeTcbEvalNumber, supported formats are uint and TaggedNumericExpression

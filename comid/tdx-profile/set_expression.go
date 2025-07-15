@@ -6,7 +6,7 @@ package tdx
 import (
 	"fmt"
 
-	"github.com/veraison/corim/comid"
+	"github.com/thomas-fossati/corim/comid"
 )
 
 type SetDigest comid.Digests

@@ -9,8 +9,8 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/veraison/corim/encoding"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/encoding"
+	"github.com/thomas-fossati/corim/extensions"
 )
 
 // SVN is the Security Version Number. This typically changes only when a

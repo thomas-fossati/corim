@@ -10,8 +10,8 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/veraison/corim/encoding"
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/encoding"
+	"github.com/thomas-fossati/corim/extensions"
 	"github.com/veraison/eat"
 )
 
@@ -19,7 +19,7 @@ const MaxUint64 = ^uint64(0)
 
 // Mkey stores a $measured-element-type-choice.
 // The supported types are UUID, PSA refval-id, CCA platform-config-id and unsigned integer
-// TO DO Add tagged OID: see https://github.com/veraison/corim/issues/35
+// TO DO Add tagged OID: see https://github.com/thomas-fossati/corim/issues/35
 type Mkey struct {
 	Value IMKeyValue
 }

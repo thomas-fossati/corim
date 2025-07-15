@@ -6,7 +6,7 @@ package comid
 import (
 	"fmt"
 
-	"github.com/veraison/corim/extensions"
+	"github.com/thomas-fossati/corim/extensions"
 )
 
 // A Stateful Environment is an Environment in a known reference state

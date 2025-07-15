@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/veraison/corim/encoding"
+	"github.com/thomas-fossati/corim/encoding"
 )
 
 // TeeAdvisoryIDs, holds the Advisory IDs. Allowed values are an array of strings OR
